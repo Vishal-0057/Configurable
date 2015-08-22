@@ -17,6 +17,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    NSLog(@"Base Url : %@, Protocol : %@",[[NSBundle mainBundle] infoDictionary][@"BaseUrl"],[[NSBundle mainBundle] infoDictionary][@"Protocol"]);
+    
+    NSLog(@"Bundle : %@",[[NSBundle mainBundle] infoDictionary]);
 }
 
 - (void)didReceiveMemoryWarning {

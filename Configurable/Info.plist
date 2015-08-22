@@ -36,5 +36,9 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>BaseUrl</key>
+	<string>${BASE_URL}</string>
+	<key>Protocol</key>
+	<string>${PROTOCOL}</string>
 </dict>
 </plist>

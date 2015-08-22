@@ -1,0 +1,10 @@
+//
+//  QA.xcconfig
+//  Configurable
+//
+//  Created by abhayam rastogi on 6/24/15.
+//  Copyright (c) 2015 Intelligrape. All rights reserved.
+//
+
+BASE_URL = qa.api.development.ios
+PROTOCOL = http
